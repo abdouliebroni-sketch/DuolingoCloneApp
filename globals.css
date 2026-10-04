@@ -1,0 +1,27 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+@import "nativewind/theme";
+
+@theme {
+  --color-brand-purple: #6c4ef5;
+  --color-brand-deep-purple: #5b3bf6;
+  --color-brand-blue: #4d8bff;
+  --color-brand-green: #21c16b;
+  --color-brand-fox-orange: #ff7a2b;
+  --color-brand-fox-dark: #1f1f1f;
+  --color-brand-fox-cream: #f6f2ee;
+  --color-neutral-text-primary: #0d132b;
+  --color-neutral-text-secondary: #6b7280;
+  --color-neutral-border: #e5e7eb;
+  --color-neutral-surface: #f6f7fb;
+  --color-neutral-background: #ffffff;
+  --font-sans: "Poppins";
+}
+
+html,
+body {
+  background-color: #f7f7f8;
+  color: #0d132b;
+  font-family: "Poppins", sans-serif;
+}
